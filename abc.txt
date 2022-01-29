@@ -6,6 +6,20 @@ Git config —global —edit
 Git init
 Git status
 
-Git add abc.txt
+Git add abc.txt/.
 Git commit -m "message"
 Git log
+
+git checkout <commit> // went to this commit
+git checkout master // went to latest
+
+git branch dev // it will create the branch  or we can do git checkout -b branch name
+git branch // it will show the branch
+git checkout dev // it will go in dev branch
+
+git touch .gitignore
+
+to push it in git hub:
+git remote add origin https://github.com/gsingh20-DS/git-learning.git
+git branch -M main
+git push -u origin main
