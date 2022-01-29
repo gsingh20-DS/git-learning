@@ -1,0 +1,11 @@
+Git config —global user.name “gaurav”
+Git config —global user.email
+
+Git config —global —edit
+
+Git init
+Git status
+
+Git add abc.txt
+Git commit -m "message"
+Git log
